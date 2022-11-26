@@ -30,7 +30,7 @@
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
     "@hookform/resolvers": "2.9.8",
-    "@next-auth/prisma-adapter": "1.0.4",
+    "@next-auth/prisma-adapter": "1.0.5",
     "@next/bundle-analyzer": "12.3.1",
     "@playwright/test": "1.26.0",
     "@prisma/client": "^4.6.1",
