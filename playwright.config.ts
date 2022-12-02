@@ -102,13 +102,15 @@ const config: PlaywrightTestConfig = {
 
   /* Folder for test artifacts such as screenshots, videos, traces, etc. */
   // outputDir: 'test-results/',
+};
 
-  /* Run your local dev server before starting the tests */
-  webServer: {
+/* Run your local dev server before starting the tests */
+if (!process.env.CI) {
+  config.webServer = {
     command: 'npm run dev',
     reuseExistingServer: !process.env.CI,
     url: baseURL,
-  },
-};
+  };
+}
 
 export default config;
