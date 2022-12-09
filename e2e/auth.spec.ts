@@ -1,19 +1,8 @@
 import { test, expect } from '@playwright/test';
 import { faker } from '@faker-js/faker';
 
-const lowercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-const uppercase = 'abcdefghijklmnopqrstuvwxyz';
-const special = '!@£$%^&*()';
-const numbers = '0123456789';
-
-const getChars = (inputs: string, amount = 10) =>
-  new Array(amount)
-    .fill('')
-    .map((_) => inputs.charAt(Math.floor(Math.random() * inputs.length)))
-    .join('');
-
 // Faker was timing out trying to meet the regex, this is faster and reliable
-const password = `${getChars(lowercase, 5)}${getChars(uppercase, 5)}${getChars(special, 4)}${getChars(numbers, 5)}`;
+const password = `E2EtestPa$$!!${Math.floor(Math.random() * 10000)}`;
 
 const seedCredentials = {
   email: faker.internet.email('e2e', Date.now().toString().slice(-8)),

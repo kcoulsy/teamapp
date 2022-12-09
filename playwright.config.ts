@@ -115,7 +115,7 @@ const config: PlaywrightTestConfig = {
 /* Run your local dev server before starting the tests */
 if (!process.env.CI) {
   config.webServer = {
-    // command: 'npm run dev',
+    command: 'npm run dev',
     reuseExistingServer: !process.env.CI,
     url: baseURL,
   };
