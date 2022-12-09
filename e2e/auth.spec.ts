@@ -31,4 +31,6 @@ test('it can register and login', async ({ page }) => {
   await page.locator('button[type="submit"]').click();
 
   await Promise.all([page.waitForNavigation(), page.locator('button[type="submit"]').click()]);
+
+  // TODO teardown
 });
