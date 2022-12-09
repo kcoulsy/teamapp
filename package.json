@@ -89,7 +89,7 @@
     "@vitest/coverage-istanbul": "0.25.3",
     "autoprefixer": "10.4.13",
     "babel-loader": "8.2.5",
-    "chromatic": "6.10.0",
+    "chromatic": "6.11.4",
     "cross-env": "7.0.3",
     "css-loader": "6.7.1",
     "eslint": "8.2.0",
