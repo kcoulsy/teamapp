@@ -21,6 +21,7 @@
     "postinstall": "prisma generate",
     "storybook": "start-storybook -p 6006 -s ./public",
     "build-storybook": "build-storybook",
+    "start-storybook": "start-storybook",
     "analyze": "cross-env ANALYZE=true next build",
     "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
     "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build",
