@@ -114,7 +114,7 @@
     "postcss": "8.4.19",
     "prettier": "2.7.1",
     "prisma": "4.6.1",
-    "sass": "1.56.1",
+    "sass": "1.57.1",
     "sass-loader": "13.0.2",
     "storybook-addon-next": "1.7.1",
     "storybook-addon-sass-postcss": "0.1.3",
