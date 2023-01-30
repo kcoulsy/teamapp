@@ -84,7 +84,7 @@
     "@semantic-release/github": "8.0.6",
     "@semantic-release/npm": "9.0.1",
     "@storybook/addon-actions": "6.5.14",
-    "@storybook/addon-essentials": "6.5.14",
+    "@storybook/addon-essentials": "6.5.16",
     "@storybook/addon-interactions": "6.5.14",
     "@storybook/addon-links": "6.5.14",
     "@storybook/addon-postcss": "2.0.0",
