@@ -106,7 +106,7 @@
     "babel-loader": "8.2.5",
     "chromatic": "6.11.4",
     "cross-env": "7.0.3",
-    "css-loader": "6.7.1",
+    "css-loader": "6.7.3",
     "eslint": "8.2.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-next": "13.3.0",
