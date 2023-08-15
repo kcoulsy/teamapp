@@ -94,7 +94,7 @@
     "@storybook/addon-actions": "7.0.2",
     "@storybook/addon-essentials": "7.0.2",
     "@storybook/addon-interactions": "7.0.2",
-    "@storybook/addon-links": "7.0.2",
+    "@storybook/addon-links": "7.3.0",
     "@storybook/addon-mdx-gfm": "npx 7.0.2",
     "@storybook/addon-postcss": "2.0.0",
     "@storybook/react-vite": "npx 7.0.2",
