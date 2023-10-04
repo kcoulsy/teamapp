@@ -64,7 +64,7 @@
     "dotenv": "16.0.3",
     "jsonwebtoken": "npx 9.0.1",
     "msw": "0.49.2",
-    "next": "13.4.10",
+    "next": "13.5.4",
     "next-auth": "4.22.1",
     "next-axiom": "0.14.0",
     "next-connect": "0.13.0",
@@ -81,7 +81,7 @@
     "uuid": "9.0.0",
     "vite": "3.2.7",
     "vitest": "0.29.8",
-    "zod": "3.19.1"
+    "zod": "3.22.3"
   },
   "devDependencies": {
     "@babel/core": "7.20.5",
