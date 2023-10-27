@@ -58,7 +58,7 @@
     "@trpc/react-query": "10.4.3",
     "@trpc/server": "10.4.3",
     "@vitejs/plugin-react": "2.1.0",
-    "axios": "npx 1.4.0",
+    "axios": "1.6.0",
     "clsx": "1.2.1",
     "cross-fetch": "3.1.5",
     "dotenv": "16.0.3",
